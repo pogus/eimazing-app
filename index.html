@@ -3,23 +3,38 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pi Uploader</title>
+<title>Eimazing</title>
 <style>
   body{font-family:system-ui,Segoe UI,Arial,sans-serif;max-width:640px;margin:6rem auto;
        padding:0 1.25rem;color:#1a1a1a;line-height:1.6}
   h1{font-size:1.8rem;margin-bottom:.25rem}
+  h2{font-size:1.15rem;margin-top:2rem}
   .muted{color:#666}
   a{color:#0b62d6}
   nav{margin-top:2rem}
 </style>
 </head>
 <body>
-  <h1>Pi Uploader</h1>
-  <p class="muted">A personal content-automation tool that helps the owner create and
+  <h1>Eimazing</h1>
+  <p class="muted">Personal content-automation tools that help the owner create and
   publish their own videos and print-on-demand designs.</p>
-  <p>This application uses the YouTube Data API to upload videos to the owner's own
-  YouTube channel. It is operated privately by the owner for their own channel and
-  is not a public service.</p>
+
+  <p>Eimazing is a set of private, single-user tools operated by the owner of the
+  <a href="https://www.etsy.com/shop/Eimazings">Eimazings Etsy shop</a>. The tools are
+  not offered to the public and never act on behalf of other users.</p>
+
+  <h2>Pin scheduler (Pinterest)</h2>
+  <p>Schedules and publishes product pins to the owner's own Pinterest business
+  account using the official Pinterest API. Each pin is an image of one of the
+  owner's own shop products, posted to the owner's own boards with a link back to
+  the product listing. Planned endpoints: <code>pins:write</code>,
+  <code>boards:read</code> and <code>boards:write</code> on the owner's account
+  only; no other Pinterest users ever authenticate with or use the tool.</p>
+
+  <h2>Pi Uploader (YouTube)</h2>
+  <p>Uploads the owner's own videos to the owner's own YouTube channel via the
+  YouTube Data API.</p>
+
   <nav>
     <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp;
     <a href="terms.html">Terms of Service</a>
