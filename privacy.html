@@ -14,11 +14,11 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p class="muted">Last updated: 16 July 2026</p>
+  <p class="muted">Last updated: 29 September 2026</p>
 
   <p>Eimazing ("the App") is a set of personal automation tools operated by their
   owner to manage the owner's own content: videos on the owner's YouTube channel
-  and product pins for the owner's own
+  TikTok account, Facebook Page and Instagram account, and product pins for the owner's own
   <a href="https://www.etsy.com/shop/Eimazings">Etsy shop (Eimazings)</a>. This
   policy explains what data the App handles. The video component is also known as
   "Pi Uploader".</p>
@@ -53,8 +53,43 @@
         (<code>youtube.upload</code> and <code>youtube.readonly</code> scopes).</li>
   </ul>
 
+  <h2>What the App accesses — TikTok</h2>
+  <p>With the owner's explicit consent through TikTok OAuth, the App uses the
+  TikTok Content Posting API to:</p>
+  <ul>
+    <li>upload the owner's own videos to the owner's own TikTok account
+        (<code>video.upload</code>, and <code>video.publish</code> where direct
+        posting is used); and</li>
+    <li>read basic profile information and the account's own posting settings
+        needed to perform those uploads and respect the account's limits
+        (<code>user.info.basic</code>).</li>
+  </ul>
+  <p>The App never reads, stores, or interacts with content or data belonging to
+  any other TikTok user. It does not collect information about other users' videos,
+  comments, followers, or activity, and it does not use TikTok data for any purpose
+  other than publishing the owner's own videos to the owner's own account.</p>
+
+  <h2>What the App accesses — Meta (Facebook and Instagram)</h2>
+  <p>With the owner's explicit consent, the App (Meta app "Eimazings Publisher") uses the
+  official Facebook Graph API and Instagram API to:</p>
+  <ul>
+    <li>publish the owner's own videos as Reels to the owner's own Facebook Page and
+        Instagram account (<code>pages_manage_posts</code>,
+        <code>instagram_content_publish</code>);</li>
+    <li>read the Page and account information needed to do so
+        (<code>pages_show_list</code>, <code>pages_read_engagement</code>,
+        <code>instagram_basic</code>, <code>business_management</code>); and</li>
+    <li>read comments left on the owner's own posts and reply to them from the owner's
+        own Page or account (<code>pages_read_user_content</code>,
+        <code>pages_manage_engagement</code>, <code>instagram_manage_comments</code>).</li>
+  </ul>
+  <p>Comment text and the commenter's public name are processed only to write a reply
+  to that comment. The App keeps only the ID of each comment it has answered, so it does
+  not answer twice; it does not build profiles of commenters, and it does not access
+  any other user's Page, account or content.</p>
+
   <h2>How data is stored and used</h2>
-  <p>OAuth tokens granted by Pinterest and Google are stored locally on the owner's
+  <p>OAuth tokens granted by Pinterest, Google, TikTok and Meta are stored locally on the owner's
   own devices and are used only to authenticate actions on the owner's own accounts.
   The App does not sell, share, or transfer this data to any third party, and does
   not use it for advertising or profiling.</p>
@@ -65,7 +100,12 @@
   <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>
   and Pinterest access in the owner's Pinterest
   <a href="https://www.pinterest.com/settings/security">security settings</a>
-  (Connected apps). Revoking immediately ends the App's access.</p>
+  (Connected apps). TikTok access can be revoked in the TikTok app under
+  Settings and privacy &rarr; Security and permissions &rarr; Manage app permissions.
+  Meta access can be removed under Facebook Settings &rarr; Business integrations.
+  See also <a href="deletion.html">how to request data deletion</a>.
+  Revoking immediately ends the App's access, and the stored tokens are deleted from
+  the owner's devices.</p>
 
   <h2>Platform policies</h2>
   <p>The App's use of information received from Google APIs adheres to the
@@ -73,7 +113,12 @@
   API Services User Data Policy</a>, including the Limited Use requirements. Its use
   of the Pinterest API adheres to the
   <a href="https://policy.pinterest.com/en/developer-guidelines">Pinterest Developer
-  Guidelines</a>.</p>
+  Guidelines</a>, its use of Meta APIs adheres to the
+  <a href="https://developers.facebook.com/terms/">Meta Platform Terms</a>, and its use of the TikTok API adheres to the
+  <a href="https://developers.tiktok.com/doc/tiktok-api-terms-of-service">TikTok API
+  Terms of Service</a> and
+  <a href="https://www.tiktok.com/community-guidelines">Community Guidelines</a>,
+  including disclosure of AI-generated content where required.</p>
 
   <h2>Contact</h2>
   <p>Questions about this policy: pontusgustavsson99@gmail.com</p>
